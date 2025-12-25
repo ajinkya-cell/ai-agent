@@ -2,7 +2,7 @@
 
 import { streamText } from "ai"
 import { createOpenRouter } from '@openrouter/ai-sdk-provider'
-import { PrismaClient } from "../app/generated/prisma"
+import { PrismaClient } from "@/app/generated/prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 export const runtime = 'nodejs'
 
